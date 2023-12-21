@@ -51,8 +51,10 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end flex gap-2 items-center">
-        <a className="btn btn-sm">Register</a>
-        <a className="btn btn-primary btn-sm">Login</a>
+        <a className="btn btn-sm text-accent-content rounded">Register</a>
+        <a className="btn btn-primary btn-sm text-secondary-content rounded">
+          Login
+        </a>
         <div className="dropdown dropdown-hover dropdown-end md:hidden">
           <div
             tabIndex={0}

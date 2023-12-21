@@ -1,9 +1,5 @@
 "use client";
 
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
-
 export default function CustomThemeController({
   children,
 }: {
@@ -11,7 +7,7 @@ export default function CustomThemeController({
 }) {
   return (
     <html lang="en" data-theme={"light"}>
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

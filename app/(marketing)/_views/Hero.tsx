@@ -1,11 +1,14 @@
-"use client";
-
 import React from "react";
 
 const Hero = () => {
   const heroData = {
     _id: 1,
-    title: "Revolutionize your business with our dynamic SaaS solutions.",
+    title: (
+      <span>
+        Revolutionize your business with our{" "}
+        <span className="text-primary">dynamic SaaS</span> solutions
+      </span>
+    ),
     description: `Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
           excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
           id nisi.`,
@@ -24,11 +27,15 @@ const Hero = () => {
           />
         </div>
         <div className="lg:w-1/2">
-          <h1 className="text-5xl font-bold mb-6">{heroData.title}</h1>
+          <h1 className="text-5xl font-extrabold mb-6">{heroData.title}</h1>
           <p className="py-6">{heroData.description}</p>
           <div className="flex space-x-4">
-            <button className="btn btn-primary">{heroData.buttonName}</button>
-            <button className="btn">{heroData.learnMoreButtonName}</button>
+            <button className="btn btn-primary text-secondary-content  rounded">
+              {heroData.buttonName}
+            </button>
+            <button className="btn text-accent-content  rounded">
+              {heroData.learnMoreButtonName}
+            </button>
           </div>
         </div>
       </div>
