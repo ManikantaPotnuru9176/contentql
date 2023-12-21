@@ -19,10 +19,10 @@ const Hero = () => {
   return (
     <div className="hero min-h-screen lg:px-28">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 flex self-start pt-4">
           <img
             src="https://cdn.dribbble.com/users/4152578/screenshots/7316405/media/c94c667c986128261cdb25da23f1af5c.jpg"
-            className="rounded-lg shadow-2xl w-full lg:w-full lg:h-96"
+            className="rounded-lg shadow-2xl w-full lg:w-[38vw] lg:h-80"
             alt="Hero Image"
           />
         </div>

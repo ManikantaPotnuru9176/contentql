@@ -59,7 +59,7 @@ const Features = () => {
   return (
     <div className="flex flex-col py-20 lg:px-28">
       <div className="flex flex-col items-center space-y-4 pb-16">
-        <h1 className="text-2xl font-bold">{featuresData.title}</h1>
+        <h1 className="text-3xl font-bold">{featuresData.title}</h1>
         <p className="">{featuresData.subtitle}</p>
       </div>
       <div className="flex flex-col items-center justify-center space-y-6">

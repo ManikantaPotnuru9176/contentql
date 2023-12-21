@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../../_views/Hero";
 import Partners from "../../_views/Partners";
 import Features from "../../_views/Features";
+import Integrations from "../../_views/Integrations";
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
       <Hero />
       <Partners />
       <Features />
+      <Integrations />
     </div>
   );
 };
