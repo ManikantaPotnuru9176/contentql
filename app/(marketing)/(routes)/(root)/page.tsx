@@ -4,6 +4,7 @@ import Partners from "../../_views/Partners";
 import Features from "../../_views/Features";
 import Integrations from "../../_views/Integrations";
 import Pricing from "../../_views/Pricing";
+import Faq from "../../_views/Faq";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Features />
       <Integrations />
       <Pricing />
+      <Faq />
     </div>
   );
 };
